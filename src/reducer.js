@@ -4,7 +4,6 @@ export const initialState = {
 
 function reducer(state,action){
     console.log(action);
-    
     switch(action.type){
 
         case "UPDATE_STOCKS":
@@ -19,7 +18,6 @@ function reducer(state,action){
                     return 'low';
                 }
             }
-
             if(index >= 0){
                     newStock.splice(index,1,{
                         name:action.data.name ,
@@ -37,7 +35,6 @@ function reducer(state,action){
             return{
                 ...state
             };
-
         default:
             return state;
     }
