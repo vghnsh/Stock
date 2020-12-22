@@ -25,22 +25,22 @@ function App() {
       dispatch({
         type: "UPDATE_STOCKS",
         data:{
-
-          name:sd[0],
+          name:sd[0].toUpperCase(),
           price:sd[1],
           status: '',
-          time:moment().format('MMMM Do , h:mm:ss a')
+          time:moment().format('MMM Do , h:mm:ss a')
           ,
         }
       })
     ))}
   },[dispatch]);
 
-  //console.log(data);
+ // console.log(data);
   
   return (
     <div className="App">
-      <Table  bordered>
+      <h3><i><b>Stock Market Live Updates</b></i></h3>
+      <Table striped bordered hover variant="dark">
         <tbody>
           <tr className='th tableR'>
             <th>NAME</th>

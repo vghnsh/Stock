@@ -13,10 +13,10 @@
   border: 1px solid #000000f7 !important;
 }
 .low {
-  background-color: #ff110054;
+  background-color: #f44336a1;
 }
 .high {
-  background-color: #89ff0063;
+  background-color: #70b323f5;
 }
 @media screen and (max-width: 800px) {
   .App {
