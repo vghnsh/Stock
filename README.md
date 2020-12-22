@@ -6,6 +6,6 @@
 - Dispatching the data into reducer one by one
 ![](src/Image/ss2.png)
 
-- After reducer operations, getting filtered data into the application
+- After reducer operations, getting filtered data into the application from store
 ![](src/Image/ss3.png)
 ![](src/Image/ss4.png)
